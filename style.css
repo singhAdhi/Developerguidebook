@@ -68,6 +68,12 @@ p {
 }
 li {
   list-style: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  color: #56646c;
 }
 ul li::before {
   content: "\2022";
