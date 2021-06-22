@@ -15,7 +15,7 @@
 h1 {
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
+  font-size: 69px;
   line-height: 82px;
   color: #040447;
 }
@@ -25,6 +25,9 @@ p {
   line-height: 36px;
   color: #56646c;
 }
-.row {
-  position: relative;
+.col-lg-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
