@@ -32,5 +32,6 @@ p {
   flex-direction: column;
 }
 .hero-image::before {
+  content: "";
   background-image: url("images/Img.png");
 }
