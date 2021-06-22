@@ -87,3 +87,7 @@ ul li::before {
   background-image: url(images/Img-two.png);
   background-repeat: no-repeat;
 }
+.image-one {
+  width: 670px;
+  height: 500px;
+}
