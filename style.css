@@ -5,6 +5,7 @@
 .btn-navy-blue {
   background: linear-gradient(180deg, #0c0c66 0%, #040440 100%);
   border-radius: 15px;
+  border: 1px solid black;
   color: #ffffff;
   text-align: center;
   padding: 0.4375rem 1.25rem;
@@ -23,6 +24,20 @@ h1 {
   line-height: 82px;
   color: #040447;
 }
+h2 {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  color: #040447;
+}
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #040447;
+}
+
 p {
   font-weight: 600;
   font-size: 18px;
