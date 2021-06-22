@@ -21,6 +21,9 @@ nav {
   width: 100vw;
   padding: 70px 20px 150px;
 }
+.adhi {
+  border: 1px solid red;
+}
 h1 {
   font-style: normal;
   font-weight: 900;
