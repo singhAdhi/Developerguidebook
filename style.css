@@ -30,6 +30,7 @@ p {
 }
 .hero-image-one {
   width: 100%;
+  background-image: url(images/Pattern.png);
 }
 .hero {
   background-color: #edfcfe;
