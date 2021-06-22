@@ -84,6 +84,6 @@ ul li::before {
   font-size: 2rem;
 }
 .col-lg-5 {
-  background-image: url(images/Img-two.png), url(images/Img-one.png);
-  background-repeat: no-repeat, no-repeat;
+  background-image: url(images/Img-two.png);
+  background-repeat: no-repeat;
 }
