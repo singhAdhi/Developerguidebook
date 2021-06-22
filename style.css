@@ -31,6 +31,8 @@ p {
 .hero-image-one {
   width: 100%;
   background-image: url(images/Pattern.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .hero {
   background-color: #edfcfe;
