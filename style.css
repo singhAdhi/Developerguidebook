@@ -1,5 +1,6 @@
 * {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 .btn-bg {
   background: linear-gradient(180deg, #0c0c66 0%, #040440 100%);
