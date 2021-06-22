@@ -25,11 +25,3 @@ p {
   line-height: 36px;
   color: #56646c;
 }
-.col-lg-6 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.hero-image-one {
-}
