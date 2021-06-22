@@ -93,3 +93,9 @@ ul li::before {
   top: 25%;
   right: 0;
 }
+.bg-white {
+  padding: 61px 63px 40px;
+  width: 370px;
+  height: 370px;
+  margin: 30.3px;
+}
