@@ -66,3 +66,14 @@ p {
   background-color: #edfcfe;
   padding-top: 6%;
 }
+li {
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+  font-size: 2rem;
+}
