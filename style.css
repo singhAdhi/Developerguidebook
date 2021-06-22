@@ -99,3 +99,6 @@ ul li::before {
   height: 370px;
   margin: 30.3px;
 }
+section.explore_bestseller.bg-light-cyan {
+  height: 874px;
+}
