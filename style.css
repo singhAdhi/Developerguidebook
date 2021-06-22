@@ -25,3 +25,9 @@ p {
   line-height: 36px;
   color: #56646c;
 }
+.hero-image-one {
+  width: 100%;
+}
+.hero {
+  background-color: #edfcfe;
+}
