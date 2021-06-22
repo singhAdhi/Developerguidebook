@@ -27,6 +27,7 @@ h1 {
   font-size: 69px;
   line-height: 82px;
   color: #040447;
+  overflow: hidden;
 }
 h2 {
   font-weight: 900;
