@@ -66,15 +66,3 @@ p {
   background-color: #edfcfe;
   padding-top: 6%;
 }
-ul {
-  list-style: none;
-}
-
-ul li::before {
-  content: "";
-  color: red;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
