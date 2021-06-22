@@ -29,6 +29,7 @@ h2 {
   font-size: 60px;
   line-height: 70px;
   color: #040447;
+  padding: 30px 0;
 }
 h3 {
   font-style: normal;
@@ -52,5 +53,5 @@ p {
 }
 .hero {
   background-color: #edfcfe;
-  padding-top: 5%;
+  padding-top: 6%;
 }
