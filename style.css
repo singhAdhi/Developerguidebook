@@ -30,6 +30,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 .hero-image::after {
   content: "";
@@ -39,5 +40,8 @@ p {
   background-position: center;
   width: 100vw;
   height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
   z-index: 1;
 }
