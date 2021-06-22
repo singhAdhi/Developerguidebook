@@ -24,3 +24,6 @@ p {
   line-height: 36px;
   color: #56646c;
 }
+.row {
+  position: relative;
+}
