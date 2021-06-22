@@ -11,3 +11,16 @@
 .navbar-end-img {
   padding-right: 20px;
 }
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 82px;
+  color: #040447;
+}
+p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: #56646c;
+}
