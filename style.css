@@ -5,4 +5,9 @@
   background: linear-gradient(180deg, #0c0c66 0%, #040440 100%);
   border-radius: 15px;
   color: #ffffff;
+  padding: 17px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
 }
