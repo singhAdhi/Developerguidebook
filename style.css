@@ -91,7 +91,3 @@ ul li::before {
   width: 670px;
   height: 500px;
 }
-.row .d-flex {
-  display: flex;
-  flex-wrap: nowrap;
-}
