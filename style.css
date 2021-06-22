@@ -9,6 +9,9 @@
   text-align: center;
   padding: 0.4375rem 1.25rem;
 }
+.navbar {
+  background-color: #edfcfe;
+}
 .navbar-end-img {
   padding-right: 20px;
 }
