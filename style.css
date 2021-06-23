@@ -81,7 +81,11 @@ ul li::before {
   width: 1em;
   font-size: 2rem;
 }
-
+.bg-light{
+  margin-left: 80px;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
 .image-one {
   width: 670px;
   height: 500px;
@@ -96,8 +100,11 @@ ul li::before {
     margin: 20px auto;
 }
 .Pricing {
-  width: 370px;
-  height: 170.5px;
+  margin: 0 auto;
+  width: 320px;
+    position: relative;
+    padding: 23px;
+    top: -100px;
   background: linear-gradient(117.61deg, #c3ece8 14.93%, #93d8d0 92.32%);
 }
 h3 {
@@ -107,12 +114,17 @@ h3 {
   color: #040447;
 }
 h4 {
-  font-size: 16px;
+  font-size: 22px;
   line-height: 26px;
   text-align: center;
   color: #ff7900;
 }
-
+.Pricing p{
+  font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    color: #56646c;
+}
 
 .custom-margin{
   margin: 10% 0 10%;
