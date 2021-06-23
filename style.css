@@ -10,6 +10,7 @@
   text-align: center;
   padding: 19px 30px;
   width: fit-content;
+  margin-top: 30px;
 }
 nav {
   background-color: #edfcfe !important;
@@ -62,7 +63,7 @@ p {
 }
 .hero {
   background-color: #edfcfe;
-  padding-top: 6%;
+  padding-top: 4%;
 }
 li {
   list-style: none;
