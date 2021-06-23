@@ -81,10 +81,7 @@ ul li::before {
   width: 1em;
   font-size: 2rem;
 }
-.col-lg-5 {
-  background-image: url(images/Img-two.png);
-  background-repeat: no-repeat;
-}
+
 .image-one {
   width: 670px;
   height: 500px;
@@ -94,9 +91,9 @@ ul li::before {
   right: 0;
 }
 .bg-white {
-  padding: 61px 63px 40px;
   width: 370px;
-  height: 370px;
+    padding: 40px 0;
+    margin: 20px auto;
 }
 .Pricing {
   width: 370px;
@@ -128,10 +125,7 @@ h4 {
 }
 
 .custom-padding{
-  padding-top: 160px;
-}
-.custom-margin-top{
-  margin-top: -12%;
+  padding-top: 120px;
 }
 .development-experience{
   margin-bottom: -5%;
@@ -150,10 +144,58 @@ h4 {
   padding-left: 0!important;
 }
 @media screen and (max-width: 600px){
-  .navbar-end{
+  .navbar-end,.custom-image{
     display: none;
   }
   .hero{
     padding: 10px 8px;
   }
+  h1,h2{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 40px;
+color: #040447;
+  }
+  h3{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+color: #040447;
+  }
+  p{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 36px;
+color: #56646C;
+  }
+  .col-sm-3 p{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-transform: capitalize;
+color: #56646C;
+  }
+  .why_choose_us {
+    padding: 0 24px;
+}
+.col-lg-5 img{
+  width: 100%;
+}
+.col-lg-7{
+  margin-left: 0;
+  height: auto;
+}
+.content{
+  height: auto;
+  padding: 0 20px;
+}
+
 }
