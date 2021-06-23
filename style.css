@@ -89,7 +89,7 @@ ul li::before {
   width: 670px;
   height: 500px;
 }
-.position-absolute {
+.btn-navy-blue .position-absolute {
   top: 25%;
   right: 0;
 }
@@ -97,7 +97,6 @@ ul li::before {
   padding: 61px 63px 40px;
   width: 370px;
   height: 370px;
-  margin: 30.3px;
 }
 .Pricing {
   width: 370px;
@@ -115,4 +114,35 @@ h4 {
   line-height: 26px;
   text-align: center;
   color: #ff7900;
+}
+.custom-width{
+  width: 100%!important;
+}
+
+.custom-margin{
+  margin: 10% 0 10%;
+}
+.bg-dark-blue{
+  background-color: #040447;
+}
+.custom-color{
+  color: #ffffff;
+}
+
+.custom-padding{
+  padding-top: 160px;
+}
+.custom-margin-top{
+  margin-top: -12%;
+}
+.development-experience{
+  margin-bottom: -5%;
+}
+@media screen and (max-width: 600px){
+  .navbar-end{
+    display: none;
+  }
+  .hero{
+    padding: 10px 8px;
+  }
 }
