@@ -60,6 +60,7 @@ p {
   background-image: url(images/Pattern.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: 0 20%;
 }
 .hero {
   background-color: #edfcfe;
@@ -82,10 +83,10 @@ ul li::before {
   width: 1em;
   font-size: 2rem;
 }
-.bg-light{
+.bg-light {
   margin-left: 80px;
-    padding: 8px 15px;
-    border-radius: 8px;
+  padding: 8px 15px;
+  border-radius: 8px;
 }
 .image-one {
   width: 670px;
@@ -97,15 +98,15 @@ ul li::before {
 }
 .bg-white {
   width: 370px;
-    padding: 40px 0;
-    margin: 20px auto;
+  padding: 40px 0;
+  margin: 20px auto;
 }
 .Pricing {
   margin: 0 auto;
   width: 320px;
-    position: relative;
-    padding: 23px;
-    top: -100px;
+  position: relative;
+  padding: 23px;
+  top: -100px;
   background: linear-gradient(117.61deg, #c3ece8 14.93%, #93d8d0 92.32%);
 }
 h3 {
@@ -120,95 +121,99 @@ h4 {
   text-align: center;
   color: #ff7900;
 }
-.Pricing p{
+.Pricing p {
   font-weight: 600;
-    font-size: 26px;
-    line-height: 36px;
-    color: #56646c;
+  font-size: 26px;
+  line-height: 36px;
+  color: #56646c;
 }
 
-.custom-margin{
+.custom-margin {
   margin: 10% 0 10%;
 }
-.bg-dark-blue{
+.bg-dark-blue {
   background-color: #040447;
 }
-.custom-color{
+.custom-color {
   color: #ffffff;
 }
 
-.custom-padding{
+.custom-padding {
   padding-top: 120px;
 }
-.development-experience{
+.development-experience {
   margin-bottom: -5%;
 }
-.col-lg-7{
+.col-lg-7 {
   margin-left: -40px;
-    z-index: -1;
+  z-index: -1;
   height: 690px;
-
 }
-.content{
+.content {
   width: 445px;
   height: 482px;
 }
-.content ul{
-  padding-left: 0!important;
+.content ul {
+  padding-left: 0 !important;
 }
-@media screen and (max-width: 600px){
-  .navbar-end,.custom-image{
+@media screen and (max-width: 600px) {
+  .navbar-end,
+  .custom-image {
     display: none;
   }
-  .hero{
+  .hero {
     padding: 10px 8px;
   }
-  h1,h2{
+  h1,
+  h2 {
     font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 30px;
-line-height: 40px;
-color: #040447;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    color: #040447;
   }
-  h3{
+  h3 {
     font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 30px;
-color: #040447;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #040447;
   }
-  p{
+  p {
     font-family: Open Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 36px;
-color: #56646C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #56646c;
   }
-  .col-sm-3 p{
+  .col-sm-3 p {
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 30px;
-text-transform: capitalize;
-color: #56646C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #56646c;
   }
   .why_choose_us {
     padding: 0 24px;
-}
-.col-lg-5 img{
-  width: 100%;
-}
-.col-lg-7{
-  margin-left: 0;
-  height: auto;
-}
-.content{
-  height: auto;
-  padding: 0 20px;
-}
-
+  }
+  .col-lg-5 img {
+    width: 100%;
+  }
+  .col-lg-7 {
+    margin-left: 0;
+    height: auto;
+  }
+  .content {
+    height: auto;
+    padding: 0 20px;
+  }
+  .Pricing {
+    position: sticky;
+    bottom: 100px;
+  }
 }
